@@ -64,7 +64,7 @@ async function requestInference (api, prompt){
             "content": prompt
           }
         ],
-        "model": "llama3-8b-8192",  // Aici poti sa iti alegi un model mai inteligent, de exemplu llama3-70b
+        "model": "llama3-8b-8192",  // Aici poti sa iti alegi un model mai inteligent, de exemplu llama3-70b-8192
         "temperature": 1,
         "max_tokens": 1024,
         "top_p": 1,
